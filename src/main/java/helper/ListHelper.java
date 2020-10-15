@@ -1,6 +1,6 @@
 package helper;
 
-public class LinkListHelper {
+public class ListHelper {
     public static ListNode generateList(int... arr) {
         ListNode head = new ListNode();
         ListNode p = head;
