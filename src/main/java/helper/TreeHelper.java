@@ -4,7 +4,7 @@ import java.util.LinkedList;
 import java.util.Queue;
 
 public class TreeHelper {
-    public static TreeNode generateTree(Integer[] data) {
+    public static TreeNode generateTree(Integer... data) {
         if (data.length == 0) return null;
         TreeNode root = new TreeNode(data[0]);
         Queue<TreeNode> queue = new LinkedList<>();
